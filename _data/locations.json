@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Kentucky Ridge State Forest",
+      "latitude": "36.736700",
+      "longitude": "-83.762480"
+    },
+    {
+      "name": "Amity Park",
+      "latitude": "35.932640",
+      "longitude": "-82.006000"
+    },
+    {
+      "name": "Mill Creek Park",
+      "latitude": "40.030819",
+      "longitude": "-122.115387"
+    },
+      {
+      "name": "Willamette National Forest",
+      "latitude": "44.058990",
+      "longitude": "-122.484970"
+    },
+      {
+      "name": "The Mound",
+      "latitude": "32.490819",
+      "longitude": "-80.320408"
+    }
+  ]
