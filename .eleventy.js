@@ -4,6 +4,9 @@ const eleventySass = require("eleventy-sass");
 //Include the luxon plugin
 const { DateTime } = require('luxon');
 
+//Includes the Bookshop plugin
+const pluginBookshop = require("@bookshop/eleventy-bookshop");
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventySass);
 
@@ -16,4 +19,10 @@ module.exports = function(eleventyConfig) {
 
   //Tells eleventy to copy map.js into your site
   eleventyConfig.addPassthroughCopy("assets/map.js");
+
+  //Tells eleventy where to find Bookshop
+  eleventyConfig.addPlugin(pluginBookshop({
+    bookshopLocations: ["_component-library"],  
+    pathPrefix: '', 
+  }));
 };

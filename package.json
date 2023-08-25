@@ -11,6 +11,12 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@bookshop/browser": "3.6.5",
+    "@bookshop/eleventy-engine": "3.6.5",
+    "@bookshop/generate": "3.6.5",
     "eleventy-sass": "^2.2.3"
+  },
+  "dependencies": {
+    "@bookshop/eleventy-bookshop": "3.6.5"
   }
 }
