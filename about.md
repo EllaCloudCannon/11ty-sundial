@@ -1,6 +1,6 @@
 ---
 title: About
-layout: page.html
+layout: layout-page.html
 hide_footer: true
 ---
 I'm an Opossum joey building my first Eleventy site.

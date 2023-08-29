@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: page.html
+layout: layout-page.html
 ---
 Hello, I'm an Opossum.
 

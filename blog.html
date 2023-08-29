@@ -1,6 +1,6 @@
 ---
 title: Blog
-layout: page.html
+layout: layout-page.html
 ---
 <h1>My posts</h1>
 <ul>
@@ -8,5 +8,17 @@ layout: page.html
  <li>
    <a href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.date | readableDate }}
  </li>
+{% endfor %}
+</ul>
+
+<h1>My posts test</h1>
+<ul>
+{% for post in collections.posts | reverse %}
+ <div class="card">
+  <div class="fakeimg" style="height:200px;">Image</div>
+  <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+  <h5>{{ post.date | readableDate }}</h5>
+  <p>Some text..</p>
+</div>
 {% endfor %}
 </ul>

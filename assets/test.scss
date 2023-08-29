@@ -1,0 +1,24 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: #171a21; /* rich black */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  // Navigation menu styles
+  nav {
+
+    ul {
+        list-style-type:none
+    }
+        li {
+        float: left;
+        margin-right: 0.5em;
+        }
+            a {
+        padding: 0.25em 1em;
+        text-decoration: none; /* no underline */
+        color: #f9fcfe; /* white */
+        }
+    }
