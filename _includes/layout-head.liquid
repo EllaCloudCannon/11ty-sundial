@@ -32,15 +32,15 @@
    <body>
       <header>
          <nav
-            class="navbar navbar-expand-lg position-fixed w-100 zindex-dropdown"
+            class="navbar"
             id="mainnavigationBar"
          >
             <div class="container-fluid">
-               <a class="navbar-brand" href="/">
-                  <img src="{{ nav.logo }}" alt="Nav-Logo" />
-               </a>
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mx-auto mb-20 mb-lg-0">
+               <div class="navbar-items">
+                  <a class="navbar-brand" href="/">
+                     <img src="{{ nav.logo }}" alt="Nav-Logo" />
+                  </a>
+                  <ul class="navbar-nav">
                      {% for item in nav.items %}
                         {% assign url = item.link %}
                         <li class="nav-item">
@@ -52,13 +52,6 @@
                         </li>
                      {% endfor %}
                   </ul>
-               </div>
-               <div class="d-none d-lg-block">
-                  <div class="nav-item">
-                     <a href="{{ nav.button.link }}" class="btn btn-sm btn-links">{{
-                        nav.button.text
-                     }}</a>
-                  </div>
                </div>
             </div>
          </nav>

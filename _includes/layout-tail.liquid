@@ -1,0 +1,35 @@
+
+      <footer class="footer">
+         <div class="shadow-top">
+            <p>shadow</p>
+         </div>
+         <div class="container-fluid">
+            <div class="footer-wrapper">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="footer-logo">
+                        <a href="/" class="">
+                           <img src="{{ footer.logo }}" alt="Footer-Logo" />
+                        </a>
+                     </div>
+                  </div>
+                  {% for item in footer.sections %}
+                  <div class="col-6">
+                     <div class="footer-widget">
+                        <h3>{{ item.title }}</h3>
+                        <ul class="list-unstyled">
+                           {% for link in item.links %}
+                           <li>
+                              <a href="{{ link.link }}">{{ link.text }}</a>
+                           </li>
+                           {% endfor %}
+                        </ul>
+                     </div>
+                  </div>
+                  {% endfor %}
+               </div>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

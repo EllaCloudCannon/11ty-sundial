@@ -1,7 +1,5 @@
 ---
 title: Home
-layout: layout-page.html
+description: HI there!
+layout: layout-blog.liquid
 ---
-Hello, I'm an Opossum.
-
-{% bookshop "sample" text: "Hello from the sample component" %}

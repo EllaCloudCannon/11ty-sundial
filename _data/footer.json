@@ -1,0 +1,40 @@
+{
+    "logo": "/../assets/images/icon.png",
+    "copyright": "MyCompany, All rights reserved!",
+    "sections": [
+      {
+        "links": [
+          {
+            "link": "/",
+            "text": "Home"
+          },
+          {
+            "link": "/blog",
+            "text": "Blog"
+          },
+          {
+            "link": "/about",
+            "text": "About"
+          }
+        ]
+      },
+      {
+        "links": [
+          {
+            "link": "/disclaimer",
+            "text": "Disclaimer"
+          },
+          {
+            "link": "/privacy",
+            "text": "Privacy Policy"
+          }
+        ]
+      }
+    ],
+    "_inputs": {
+      "logo": {
+        "type": "image"
+      }
+    }
+  }
+  
