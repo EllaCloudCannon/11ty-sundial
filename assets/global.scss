@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Cinzel';
+    font-display: fallback;
+    font-style: normal;
+    font-weight: 400;
+    src: url('/./assets/fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf');
+}
+
 body {
     margin: 0 auto;
     font-family: sans-serif;
@@ -10,6 +18,7 @@ body {
   nav {
 
     margin: 2em 2em;
+    z-index: 2;
 
     .navbar-brand {
         float: left;
@@ -24,13 +33,14 @@ body {
     }
         li {
             float: right;
-            margin-right: 0.5em;
+            margin-right: 2em;
         }
             a {
                 text-align: center;
                 padding: 14px 2.5em;
                 font-size: 25px;
                 text-decoration: none; /* no underline */
+                text-transform: uppercase;
                 color: #f9fcfe; /* white */
                 background-color: #171a21;
                 transition: 0.3s;
@@ -79,3 +89,42 @@ body {
                     }
                 }
             }
+
+
+// Bookshop component counter
+.counter-up {
+    color: #f9fcfe;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    padding-block-start: 1.5rem;
+    padding-block-end: 1.5rem;
+    
+}
+    .container {
+        background-color: #4d4f6480;
+        border-radius: 25px;
+        width: 80%;
+        margin: auto;
+    }
+
+        h2 {
+            font-size: 4rem;
+            position: relative;
+            line-height: 81.25px;
+            letter-spacing: -0.4px;
+            text-transform: capitalize;
+        }
+            h2 span {
+                color: #f66145;
+                font-family: 'Cinzel', sans-serif;
+            }
+
+// Bookshop component hero
+.hero {
+    position: relative;
+    background: #4d4f64;
+    color: #f9fcfe;
+    z-index: 1;
+    overflow: hidden;
+}

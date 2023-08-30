@@ -5,22 +5,40 @@ description: HI there!
 layout: layout-main.liquid
 
 content_blocks:
+- _bookshop_name: hero
+  title: Beautiful email campaigns
+  description: Have you ever wanted to witness history for yourself? Feel the 
+  image: /images/hero/hero-image-2.png
+  image_alt: Reports dashboard
+  button:
+    text: Try This Free
+    url: /signup
+
 - _bookshop_name: counter
-  title: "Design for your"
-  title_suffix: "Business"
-  description: We believe that a good email marketing strategy is the key to growth. So we’re helping you grow your business with tools and resources that make email marketing easy.
+  title: "Put the travel in"
+  title_suffix: "Time-travel"
+  description: We've sent our clients when they want to go for [undefined] years!
   alternate_style: false
   numbers:
-    - prefix: $
-      number: 200
-      suffix: m
-      text: Venture capital raised
+    - number: 200
+      suffix: +
+      text: Years and counting
     - number: 2016
       text: Established in
     - number: 40
       suffix: +
-      text: Amazing team members
+      text: Amazing clients
     - number: 4322
       suffix: +
-      text: Active users and growing
+      text: Historical events witnessed
+
+- _bookshop_name: feature
+  image: /images/feature/feature-card-one.png
+  image_alt: Message inbox
+  title: "Email Campaign in one minute"
+  description: "Send an email campaign with one click, in just minutes. Automate your emails and content, while keeping the human touch."
+  button:
+      link: /signup
+      text: Try This Free
+  reversed: false      
 ---
