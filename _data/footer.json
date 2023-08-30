@@ -1,5 +1,5 @@
 {
-    "logo": "/../assets/images/icon.png",
+    "logo": "/assets/images/icon.svg",
     "copyright": "MyCompany, All rights reserved!",
     "sections": [
       {
@@ -13,8 +13,8 @@
             "text": "Blog"
           },
           {
-            "link": "/about",
-            "text": "About"
+            "link": "/locations",
+            "text": "Locations"
           }
         ]
       },

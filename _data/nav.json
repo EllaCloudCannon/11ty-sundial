@@ -1,9 +1,9 @@
 {
-    "logo": "/../assets/images/logo.svg",
+    "logo": "/assets/images/logo.svg",
     "items": [
       {
-        "link": "/about/",
-        "text": "About"
+        "link": "/locations/",
+        "text": "Locations"
       },
       {
         "link": "/blog/",

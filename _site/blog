@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="utf-8" />
-      <title>Home | </title>
+      <title>Blog | </title>
 
       <meta name="viewport" content="width=device-width, initial-scale=1" />
          <meta name="description" content="">
@@ -10,9 +10,9 @@
       
 
       
-      <link rel="stylesheet" href="/assets/test.css"><link rel="shortcut icon" href="" type="image/x-icon" />
-      <link rel="icon" href="" type="image/x-icon" />
-      <link rel="apple-touch-icon" href="">
+      <link rel="stylesheet" href="/assets/global.css"><link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
    </head>
    <body>
       <header>
@@ -23,7 +23,7 @@
             <div class="container-fluid">
                <div class="navbar-items">
                   <a class="navbar-brand" href="/">
-                     <img src="/../assets/images/logo.svg" alt="Nav-Logo" />
+                     <img src="/assets/images/logo.svg" alt="Nav-Logo" />
                   </a>
                   <ul class="navbar-nav">
                      
@@ -31,8 +31,8 @@
                         <li class="nav-item">
                            <a
                               class="nav-link "
-                              href="/about/"
-                              >About</a
+                              href="/locations/"
+                              >Locations</a
                            >
                         </li>
                      
@@ -61,25 +61,16 @@
       </header>
 
 
-<main>
-   <section class="blog-hero">
-      <div class="container">
-         <div class="row">
-            <div class="">
-               <div class="blog-hero-content">
-                  <h1 class="blog-hero-title">Home</h1>
-                  <p>HI there!</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-</main>
+    <!--bookshop-live meta(version: "3.6.5" ) -->
+<!--bookshop-live name(page) params(content_blocks: content_blocks) context() --><div>
+
+</div>
+<!--bookshop-live end--> 
 
 
       <footer class="footer">
          <div class="shadow-top">
-            <p>shadow</p>
+            <p>&nbsp</p>
          </div>
          <div class="container-fluid">
             <div class="footer-wrapper">
@@ -87,7 +78,7 @@
                   <div class="col-12">
                      <div class="footer-logo">
                         <a href="/" class="">
-                           <img src="/../assets/images/icon.png" alt="Footer-Logo" />
+                           <img src="/assets/images/icon.svg" alt="Footer-Icon" />
                         </a>
                      </div>
                   </div>
@@ -106,7 +97,7 @@
                            </li>
                            
                            <li>
-                              <a href="/about">About</a>
+                              <a href="/locations">Locations</a>
                            </li>
                            
                         </ul>

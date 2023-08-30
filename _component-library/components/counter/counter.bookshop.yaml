@@ -9,9 +9,9 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: "Design for your"
-  title_suffix: "Business"
-  description: We believe that a good email marketing strategy is the key to growth. So we’re helping you grow your business with tools and resources that make email marketing easy.
+  title: "Title with a"
+  title_suffix: "Keyword"
+  description: Enter your description text here.
   alternate_style: false
   numbers:
     - prefix: "$"

@@ -38,7 +38,7 @@ body {
             a {
                 text-align: center;
                 padding: 14px 2.5em;
-                font-size: 25px;
+                font-size: 15px;
                 text-decoration: none; /* no underline */
                 text-transform: uppercase;
                 color: #f9fcfe; /* white */
@@ -53,7 +53,6 @@ body {
     
     // Footer menu styles
     footer {
-        position: absolute;
         bottom: 0;
         width: 100%;
         height: 2.5 em;
@@ -61,7 +60,7 @@ body {
         .shadow-top {
             width: 100%;
             height: 100 px;
-            background-image: linear-gradient(180deg, #171a21, #4d4f6480 );
+            background-image: linear-gradient(180deg, #171a21, #4d4f6460 );
         }
             p {
                 height: 100px;
@@ -100,19 +99,23 @@ body {
     padding-block-start: 1.5rem;
     padding-block-end: 1.5rem;
     
-}
+
     .container {
-        background-color: #4d4f6480;
+        box-sizing: border-box;
+        background-color: #4d4f6460;
         border-radius: 25px;
         width: 80%;
+        height: 500px;
         margin: auto;
     }
+        .col {
+            float: left;
+        }
+
 
         h2 {
-            font-size: 4rem;
-            position: relative;
-            line-height: 81.25px;
-            letter-spacing: -0.4px;
+            font-size: 2rem;
+            line-height: 50px;
             text-transform: capitalize;
         }
             h2 span {
@@ -120,11 +123,54 @@ body {
                 font-family: 'Cinzel', sans-serif;
             }
 
+        .counter-up-content {
+            box-sizing: border-box;
+            margin: auto;
+            border: #f9fcfe;
+        }
+
+        }
 // Bookshop component hero
 .hero {
-    position: relative;
     background: #4d4f64;
     color: #f9fcfe;
-    z-index: 1;
     overflow: hidden;
+}
+
+// Bookshop component feature
+.feature {
+    color: #f9fcfe;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    padding-block-start: 1.5rem;
+    padding-block-end: 1.5rem;
+
+    .container {
+        color: #f9fcfe;
+        width: 90%;
+        margin: auto;
+
+        .row {
+            display: flex;
+            box-sizing: border-box;
+            align-items: center;
+
+            .col {
+                float: left;
+                
+            }
+
+            h2 {
+                font-size: 3rem;
+                line-height: 50px;
+                text-transform: capitalize;
+            }
+                h2 span {
+                    color: #f66145;
+                    font-family: 'Cinzel', sans-serif;
+                }
+        }
+    }
+    
 }
