@@ -1,0 +1,23 @@
+<section class="triple">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="triple-wrapper">
+          {% for item in squares %}
+          <div class="triple-item-content">
+            <div class="triple-item-banner">
+              <div class="card-image">
+              <img src="{{image}}" alt="{{image_alt}}" loading="lazy" />
+              </div>
+            </div>
+            <div class="triple-content">
+              <h3>{{ title }}</h3>
+              <p>{{ description }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

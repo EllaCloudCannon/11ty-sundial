@@ -1,22 +1,22 @@
 @font-face {
-    font-family: 'Cinzel';
+    font-family: "Cinzel";
     font-display: fallback;
     font-style: normal;
     font-weight: 400;
-    src: url('/./assets/fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf');
+    src: url("/./assets/fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf");
 }
 
 body {
     margin: 0 auto;
     font-family: sans-serif;
-    background-color: #171a21; /* rich black */
+    background-color: #171a21;
+    /* rich black */
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
+}
 
-  // Navigation menu styles
-  nav {
-
+// Navigation menu styles
+nav {
     margin: 2em 2em;
     z-index: 2;
 
@@ -25,70 +25,79 @@ body {
     }
 
     ul {
-        list-style-type:none;
+        list-style-type: none;
         align-items: center;
         width: 80%;
         margin: 5em auto;
         float: right;
-    }
+
         li {
             float: right;
             margin-right: 2em;
         }
-            a {
-                text-align: center;
-                padding: 14px 2.5em;
-                font-size: 15px;
-                text-decoration: none; /* no underline */
-                text-transform: uppercase;
-                color: #f9fcfe; /* white */
-                background-color: #171a21;
-                transition: 0.3s;
-            
-                &:hover {
-                    background-color: #f66145;
-                }
-            }
+    }
+
+
+
+    a {
+        text-align: center;
+        padding: 14px 2.5em;
+        font-size: 15px;
+        text-decoration: none;
+        /* no underline */
+        text-transform: uppercase;
+        color: #f9fcfe;
+        /* white */
+        background-color: #171a21;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: #f66145;
         }
-    
-    // Footer menu styles
-    footer {
-        bottom: 0;
+    }
+}
+
+// Footer menu styles
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 2.5 em;
+
+    .shadow-top {
         width: 100%;
-        height: 2.5 em;
+        height: 100 px;
+        background-image: linear-gradient(180deg, #171a21, #4d4f6460);
+    }
 
-        .shadow-top {
-            width: 100%;
-            height: 100 px;
-            background-image: linear-gradient(180deg, #171a21, #4d4f6460 );
+    p {
+        height: 100px;
+    }
+
+    ul {
+        list-style-type: none;
+        text-align: right;
+        width: 100%;
+        margin: 1em auto;
+        float: right;
+    }
+
+    li {
+        margin-right: 0.5em;
+    }
+
+    a {
+        padding: 14px 2.5em;
+        font-size: 15px;
+        text-decoration: none;
+        /* no underline */
+        color: #f9fcfe;
+        /* white */
+
+        &:hover {
+            text-decoration: underline;
         }
-            p {
-                height: 100px;
-            }
-
-
-        ul {
-            list-style-type:none;
-            text-align: right;
-            width: 100%;
-            margin: 1em auto;
-            float: right;
-        }
-            li {
-                margin-right: 0.5em;
-            }
-                a {
-                    padding: 14px 2.5em;
-                    font-size: 15px;
-                    text-decoration: none; /* no underline */
-                    color: #f9fcfe; /* white */
-                
-                    &:hover {
-                        text-decoration: underline;
-                    }
-                }
-            }
-
+    }
+}
 
 // Bookshop component counter
 .counter-up {
@@ -98,48 +107,83 @@ body {
     text-align: center;
     padding-block-start: 1.5rem;
     padding-block-end: 1.5rem;
-    
 
     .container {
         box-sizing: border-box;
         background-color: #4d4f6460;
-        border-radius: 25px;
-        width: 80%;
+        border-radius: 5px;
+        width: 90%;
         height: 500px;
         margin: auto;
-    }
+
         .col {
             float: left;
-        }
 
+            h2 {
+                font-size: 2rem;
+                line-height: 50px;
+                text-transform: capitalize;
 
-        h2 {
-            font-size: 2rem;
-            line-height: 50px;
-            text-transform: capitalize;
-        }
-            h2 span {
-                color: #f66145;
-                font-family: 'Cinzel', sans-serif;
+                span {
+                    color: #f66145;
+                    font-family: "Cinzel", sans-serif;
+                }
             }
 
-        .counter-up-content {
-            box-sizing: border-box;
-            margin: auto;
-            border: #f9fcfe;
+            .counter-up-content {
+                box-sizing: border-box;
+                margin: auto;
+                border: #f9fcfe;
+            }
         }
+    }
+}
 
-        }
 // Bookshop component hero
 .hero {
-    background: #4d4f64;
-    color: #f9fcfe;
-    overflow: hidden;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+
+
+    .container {
+        width: 90%;
+        margin: auto;
+        color: #f9fcfe;
+        overflow: hidden;
+
+        .row {
+            display: flex;
+            box-sizing: border-box;
+
+            .col {
+                width: 50%;
+                height: 500px;
+
+                .hero-content {
+                    padding: 5%;
+
+                    h1 {
+                        font-size: 4rem;
+                        line-height: 70px;
+                        text-transform: capitalize;
+
+                        span {
+                            color: #f66145;
+                            font-family: "Cinzel", sans-serif;
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+
 }
 
 // Bookshop component feature
 .feature {
-    color: #f9fcfe;
     box-sizing: border-box;
     display: block;
     text-align: left;
@@ -158,19 +202,115 @@ body {
 
             .col {
                 float: left;
-                
+
+                h2 {
+                    font-size: 3rem;
+                    line-height: 50px;
+                    text-transform: capitalize;
+
+                    span {
+                        color: #f66145;
+                        font-family: "Cinzel", sans-serif;
+                    }
+                }
             }
 
-            h2 {
-                font-size: 3rem;
+        }
+    }
+}
+
+// Bookshop component paragraph
+.triple {
+    color: #f9fcfe;
+    box-sizing: border-box;
+    text-align: center;
+    padding-block-start: 1.5rem;
+    padding-block-end: 1.5rem;
+    width: 90%;
+    margin: auto;
+
+    .container {
+        color: #f9fcfe;
+        margin: 0 auto;
+
+        .row {
+            display: flex;
+            box-sizing: border-box;
+            align-items: center;
+
+            .col {
+                float: left;
+                width: 100%;
+
+                .triple-wrapper {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+
+                    .triple-item-banner {
+                        height: fit-content;
+
+                        .card-image {}
+                    }
+
+                    .triple-item-content {
+                        background-color: #4d4f6460;
+                        border-radius: 5px;
+                        margin: 2%;
+
+                        h3 {
+                            font-size: 2rem;
+                            line-height: 50px;
+                            text-transform: capitalize;
+
+                            h3 span {
+                                color: #f66145;
+                                font-family: "Cinzel", sans-serif;
+                            }
+                        }
+
+                        p {
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Bookshop component paragraph
+.paragraph {
+    color: #f9fcfe;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    padding-block-start: 1.5rem;
+    padding-block-end: 1.5rem;
+
+    .container {
+        color: #f9fcfe;
+        width: 50%;
+        margin: auto;
+
+        .row {
+            display: flex;
+            box-sizing: border-box;
+            align-items: center;
+
+            .col {
+                float: left;
+            }
+
+            h3 {
+                font-size: 2rem;
                 line-height: 50px;
                 text-transform: capitalize;
             }
-                h2 span {
-                    color: #f66145;
-                    font-family: 'Cinzel', sans-serif;
-                }
+
+            h3 span {
+                color: #f66145;
+                font-family: "Cinzel", sans-serif;
+            }
         }
     }
-    
 }

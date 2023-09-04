@@ -1,23 +1,22 @@
 {
-    "logo": "/assets/images/logo.svg",
-    "items": [
-      {
-        "link": "/locations/",
-        "text": "Locations"
-      },
-      {
-        "link": "/blog/",
-        "text": "Blog"
-      },
-      {
-        "link": "/test-page/",
-        "text": "Test"
-      }
-    ],
-    "_inputs": {
-      "logo": {
-        "type": "image"
-      }
+  "logo": "/assets/images/logo.svg",
+  "items": [
+    {
+      "link": "/locations/",
+      "text": "Locations"
+    },
+    {
+      "link": "/blog/",
+      "text": "Blog"
+    },
+    {
+      "link": "/test-page/",
+      "text": "Test"
+    }
+  ],
+  "_inputs": {
+    "logo": {
+      "type": "image"
     }
   }
-  
+}

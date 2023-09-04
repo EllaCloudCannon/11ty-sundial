@@ -5,38 +5,57 @@ description: HI there!
 layout: layout-main.liquid
 
 content_blocks:
-- _bookshop_name: hero
-  title: Beautiful email campaigns
-  description: Have you ever wanted to witness history for yourself? Feel the 
-  image: /images/hero/hero-image-2.png
-  image_alt: Reports dashboard
-  button:
-    text: Try This Free
-    url: /signup
+  - _bookshop_name: hero
+    title: Whenever. Wherever.
+    title_suffix: With Sundial.
+    description: Sundial is the world's leading provider of temporal travel.
+    image: /images/hero/hero-image-2.png
+    image_alt: Reports dashboard
+    button:
+      text: Talk to an Agent
+      url: /signup
 
-- _bookshop_name: counter
-  title: "Put the travel in"
-  title_suffix: "Time-travel"
-  description: We've sent our clients when they want to go for [undefined] years!
-  alternate_style: false
-  numbers:
-    - number: 200
-      suffix: +
-      text: Years and counting
-    - number: 2016
-      text: Established in
-    - number: 40
-      suffix: +
-      text: Amazing clients
-    - number: 4322
-      suffix: +
-      text: Historical events witnessed
+  - _bookshop_name: counter
+    title: "Put the travel in"
+    title_suffix: "Time-travel"
+    description: We've sent our clients when they want to go for [undefined] years!
+    alternate_style: false
+    numbers:
+      - number: 200
+        suffix: +
+        text: Years and counting
+      - number: 40
+        suffix: +
+        text: Amazing clients
+      - number: 4322
+        suffix: +
+        text: Historical events witnessed
 
-- _bookshop_name: feature
-  image: /images/feature/feature-card-one.png
-  image_alt: Solar technology
-  title: "Solar Flare"
-  title_suffix: "Technology"
-  description: "Our technology is revolutionizing the tourism industry by empowering thousands across the globe to visit any time in human history."
-  reversed: true     
+  - _bookshop_name: feature
+    image: /images/feature/feature-card-one.png
+    image_alt: Solar technology
+    title: "Solar Flare"
+    title_suffix: "Technology"
+    description: "Our technology is revolutionizing the tourism industry by empowering thousands across the globe to visit any time in human history."
+    reversed: true
+
+  - _bookshop_name: triple
+    squares:
+      - image: /assets/images/WeAreWaitingForYou.png
+        image_alt: Sundial Commitment 1
+        title: "We're waiting for you."
+        description: Enter your description text here.
+      - image: /images/feature/feature-card-one.png
+        image_alt: Sundial Commitment 2
+        title: "We're with you."
+        description: Enter your description text here.
+      - image: /images/feature/feature-card-one.png
+        image_alt: Sundial Commitment 3
+        title: "We're watching you."
+        description: Enter your description text here.
+
+  - _bookshop_name: paragraph
+    title: "Time"
+    title_suffix: "line"
+    description: "Select from our range of verified destinations."
 ---
